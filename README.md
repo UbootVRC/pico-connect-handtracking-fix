@@ -98,3 +98,12 @@ Thanks to **LordChaotix (Crocodile)** for supplying the PICO Connect log files t
 ## Disclaimer
 
 This tool edits your Windows hosts file (temporarily, self-cleaning) and briefly delays one HTTPS request made by PICO Connect. It does not decrypt traffic, patch binaries, or touch the headset. Use at your own risk. Not affiliated with PICO/ByteDance. Tested with PICO Connect **10.6.6** and the **PICO 4 Enterprise** — a future PICO Connect update may change the startup logic and make this fix unnecessary (or ineffective).
+
+---
+
+## More VR Help & Info
+
+For other VR-related information and help:
+
+- 💬 **Discord:** https://discord.gg/fnZjDyUFWs
+- ▶️ **YouTube:** https://youtube.com/@UbootVRC
