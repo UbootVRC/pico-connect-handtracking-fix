@@ -77,6 +77,9 @@ echo(
 echo Step 3/3: creating the environment at:
 echo   !ENVDIR!
 echo(
+call "!CONDA!" tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+call "!CONDA!" tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+call "!CONDA!" tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2
 call "!CONDA!" create -y -p "!ENVDIR!" python=3.11
 if errorlevel 1 goto :envfail
 if not exist "!ENVDIR!\python.exe" goto :envfail
