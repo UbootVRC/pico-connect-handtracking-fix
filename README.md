@@ -2,7 +2,7 @@
 
 Fixes hand tracking on the **PICO 4 Enterprise** with **PICO Connect 10.6.6** on Windows.
 
-If your hand tracking used to work but silently stopped working when streaming to PC — controllers work fine, but putting them down never shows your hands in SteamVR — this tool fixes it, without modifying PICO Connect or the headset in any way.
+If your hand tracking works standalone but silently stopped working when streaming to PC — controllers work fine, but putting them down never shows your hands in SteamVR — this tool fixes it, without modifying PICO Connect or the headset in any way.
 
 ## The root cause
 
